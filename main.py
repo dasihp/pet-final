@@ -31,12 +31,12 @@ async def do():
         await play.timer(2.0)
 
     if play.key_is_pressed("г") or play.key_is_pressed("Г"):
-        player.size = 200
+        player.size = 150
         player.image = "surikato1.jpg"
         speech.words = "кайф"
         await play.timer(2.0)
 
-        player.image = ("200px-Suricata")
+        player.image = ("200px-Suricata.jpg")
         speech.words = ("покорми мене")
         await play.timer(2.0)
 
@@ -45,7 +45,7 @@ async def do():
         player.image = "1575814835195130290.jpg"
         speech.words = "спить"
         await play.timer(2.0)
-        player.size = 300
+        player.size = 150
         player.image = ("images.jpg")
         speech.words = ("я вже поспав погладь мене")
 
@@ -54,7 +54,7 @@ async def do():
         player.size = 100
         player.image = "220px-Meerkat_(Suricata_suricatta).jpg"
         speech.words = "я наївся"
-        await play.timer(3.0)
+        await play.timer(2.0)
 
         player.size = 100
         player.image = "surikato5.jpg"
@@ -77,7 +77,7 @@ async def do():
         eat = True
 
     if play.key_is_pressed('space'):
-        player.size = 100
+        player.size = 150
         player.image = "kryket.jpg"
         speech.words = "ти вже йдеш? тоді бувай"
         await play.timer(2.0)
